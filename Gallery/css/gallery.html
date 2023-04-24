@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" rel="stylesheet">
+</head>
+<style>
+    body{
+        background: rgb(138, 0, 0);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+    h1{
+        align-items: center;
+        color: rgb(148, 56, 56);
+
+    
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px
+    }
+
+    .item img{
+    width: 100%;
+    height:300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+
+
+</style>
+<body>
+    <h1>Imagenes gallery</h1>
+<div class="container">
+    <div class="item">
+        <figure>
+            <img src="https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        </figure>
+    </div>
+    <div class="item">
+        <figure>
+            <img src="https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        </figure>
+    </div>
+    <div class="item">
+        <figure>
+            <img src="https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        </figure>
+    </div>
+    <div class="item">
+        <figure>
+            <img src="https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        </figure>
+    </div>
+</div>
+
+</body>
+</html>
